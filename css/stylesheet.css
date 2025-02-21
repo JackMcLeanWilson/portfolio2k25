@@ -43,6 +43,10 @@ p {
     color: #e32f2f;
 }
 
+.menu .github a:hover {
+    color: #a900a9;
+}
+
 #work, #about, #contact {
     display: none; /* Ensure this is hidden initially */
 }
