@@ -1,0 +1,48 @@
+body {
+    background-color: #111111;
+    font-family: "Workbench", serif;
+    padding: 25px;
+    color: #ba4100;
+}
+
+h1, h2, h3 {
+    font-family: "Workbench", serif;
+    color: #ff5900;
+}
+
+p {
+    padding-top: 10px;
+}
+
+.menu {
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.menu li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ba4100;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ba4100;
+    transition: color 0.5s ease-in-out;
+}
+
+.menu a:hover {
+    color: #ff5900;
+}
+
+.menu .linkedin a:hover {
+    color: rgb(107, 202, 233);
+}
+
+.menu .mailto a:hover {
+    color: #e32f2f;
+}
+
+#work, #about, #contact {
+    display: none; /* Ensure this is hidden initially */
+}
